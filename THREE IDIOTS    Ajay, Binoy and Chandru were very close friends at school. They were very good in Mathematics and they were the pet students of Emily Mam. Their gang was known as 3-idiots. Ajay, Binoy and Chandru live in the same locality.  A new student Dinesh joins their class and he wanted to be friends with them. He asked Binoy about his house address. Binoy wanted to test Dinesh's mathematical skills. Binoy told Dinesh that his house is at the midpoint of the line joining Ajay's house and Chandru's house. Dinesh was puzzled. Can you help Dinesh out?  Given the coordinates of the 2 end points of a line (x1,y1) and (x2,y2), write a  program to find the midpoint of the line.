@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int X1,X2,Y1,Y2;
+    float x,y;
+    printf("X1");
+    scanf("%d",&X1);
+    
+    printf("Y1");
+    scanf("%d",&Y1);
+    printf("X2");
+    scanf("%d",&X2);
+    printf("Y2");
+    scanf("%d",&Y2);
+    x=(float)(X1+X2)/2;
+    y=(float)(Y1+Y2)/2;
+    printf("Binoy's house is located at (%.1f,%.1f)",x,y);
+
+    return 0;
+
+}
