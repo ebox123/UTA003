@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float celsius, fahrenheit;
+    printf("Temparature in Celsius:");
+    scanf("%f", &celsius);
+    //celsius to fahrenheit conversion formula
+    fahrenheit = (celsius * 9 / 5) + 32;
+    printf("Temparature in Fahrenheit is %.1fF",fahrenheit);
+    return 0;
+}
